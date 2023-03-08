@@ -164,4 +164,47 @@ body {
 
 .lista_link:active {
   color: var(--botao-azul);
+} 
+
+@media screen and (max-width: 1024px){ 
+  body {
+    width: 100%; 
+    align-items: center; 
+    text-align: center;
+  }
+  .container {
+    display: block; 
+    background-image: none; 
+    padding: 1em;
+  } 
+
+  .container_imagem {
+    width: 50vw;
+  } 
+  .container_caixa {
+    margin: 2em 2em; 
+    padding: 1em;
+  } 
+  .secundario {
+    margin: 0; 
+    text-align: center; 
+  } 
+  .container_secundario_imagem {
+    width: 50vw;
+  } 
+  .dispositivos {
+    padding: 2em;
+  } 
+  .dispositivos_titulo {
+    font-size: 2em;
+  }
+  .dispositivos_lista {
+    display: block;
+  } 
+  .dispositivos_lista_titulo {
+    font-size: 1.5em;
+  }
+  .rodape_lista {
+    display: block;
+  }
 }
